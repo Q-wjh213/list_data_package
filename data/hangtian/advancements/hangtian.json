@@ -1,0 +1,28 @@
+{
+"parent": "minecraft:end/elytra",
+"display": {
+"icon": {
+"item": "minecraft:elytra",
+"nbt": "{Enchantments:[{}]}"
+},
+"title": "长大后，我要当喜之郎",
+"description": "当太空人，飞上200000格(可在任意维度完成,奖励无法破坏的鞘翅,请确认背包有空余)",
+"frame": "challenge"
+},
+"criteria": {
+"a": {
+"trigger": "minecraft:location",
+"conditions":{
+"position": 
+{
+"y": {
+"min": 200000
+}
+}
+}
+}
+},
+"rewards": {
+"function": "hangtian:gift"
+}
+}
